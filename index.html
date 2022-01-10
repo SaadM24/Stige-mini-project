@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="page">
+      <header>
+        <h1 class="logo">Travel</h1>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="production ID-4328789.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring The World</h3>
+        <p>
+          Traveling means giving yourself and your mind a break from the
+          monotonous pattern of life, each one of us live day in and out. When
+          you travel, you look forward to an iconic experience that makes your
+          trip worthwhile and memorable. Everyone has one of those moments in
+          the course of their trip that holds a special part in their entire
+          travel experience. It could be the journey to the destination, the
+          picturesque sightseeing, or the friendly people you meet on your way.
+        </p>
+        <a href="#">Explore</a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="face.png" alt="" width="50px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="insta.png" alt="" width="50px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" alt="" width="50px" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Sign-Up/Sign-In</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const page = document.querySelector(".page");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        page.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
